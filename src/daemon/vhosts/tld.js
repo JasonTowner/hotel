@@ -12,7 +12,7 @@ module.exports = (group) => {
 
     // Skip hotel.tld
     if (hotelRegExp.test(hostname)) {
-      util.log('hotel.dev')
+      util.log('hotel.jane.dev')
       return next()
     }
 
